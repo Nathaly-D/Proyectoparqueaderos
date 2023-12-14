@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParkPath</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <!------------------------------Nav Bar ----------------------------------->  
+    <div class="Navbar">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="marca">
+                    <img src="../assets/dist/img/logo.jfif" class="Logo" alt="Logo ParkPath">
+                </div>   
+                <a class="navbar-brand" href="../index.html">ParkPath</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Como usar nuestros servicios?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Contáctanos</a>
+                    </li>
+                    <li>
+                        <a id="buton" class="btn btn-primary" href="./iniciarsesion.html" role="button">Iniciar Sesión</a>
+                    </li>
+                    <li>
+                        <a id="buton2" class="btn btn-primary" href="../views/registrarClientes.html" role="button">Crear Cuenta</a>                    </li>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!----------------------Formulario------------------------------------------------>
+
+    <form action="../controllers/insertarClientes.php" method="POST"><p class="value">Iniciar Sesión</p><br>
+            
+        <label for="usuario">Usuario:</label><br>
+        <input class="label"type="text" id="usuario" name="usuario" required><br>
+
+        <label for="clave">Clave:</label><br>
+        <input class="label" type="password" id="clave" name="clave" required><br>
+        
+<!---------------------Duda boton--------------------------------------------->
+            <a  type="submit" class="boton" href="../pages/menuprincipal.html" role="button" style="text-decoration: none; justify-content: center; align-items: center;"><p class="inicio">Iniciar Sesión</p></a>                    </li>
+    </form>
+
+
+
+<!----------------------------------------Footer------------------------------------------------>        
+    <footer id="footer2">
+        <div class="tituloco">Contáctanos<br>
+        <li>
+            1236544897
+        </li>
+        <li>
+            https://www.facebook.com/ParkPath
+        </li>
+        <li>
+            https://www.instagram.com/ParkPath
+        </li>
+        </div>
+        <p class="tituloco">&copy;ParkPath</p>
+    </footer> 
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

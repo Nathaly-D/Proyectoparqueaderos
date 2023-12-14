@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter; 
+
+}
+/*****************************************NavbAR************************************/
+.Logo{
+    width: 50px;
+    height: 50px;
+}
+.Navbar{
+    background-color: rgb(245,245,245);
+    position: absolute; z-index: 1;  
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+}
+
+#buton{
+    margin-left: 340px;
+    background: #253648; 
+    border-radius: 80px; 
+}
+#buton2{
+    margin-left: 10px;
+    background: #253648; 
+    border-radius: 80px; 
+}
+/***********************************Banner**************************************/
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../dist/img/banner.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: black;
+}
+
+/****************************Quienes Somos*****************************************/
+.titulo{
+    width: 348px; 
+    height: 33px; 
+    left: -30px; 
+    top: 520px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 26px; 
+    font-weight: 400;
+    word-wrap: break-word"
+}
+.texto{
+ 
+    width:778px; 
+    height: 122px; 
+    left: 45px; 
+    top: 580px; 
+    position:absolute;
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word"
+}
+.imagenquien{
+    width: 260px;
+    height: 225px; 
+    left: 919px; 
+    top: 540px; 
+    position: absolute;
+}
+/************************************Servicios************************************/
+.tituloc{
+    width: 597px; 
+    height: 33px; 
+    left: -85px; 
+    top: 800px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 26px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.textoc{
+    width: 1134px; 
+    height: 122px; 
+    left: 45px; 
+    top: 880px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+#opcion{
+    width: 178px; 
+    height: 57px; 
+    left: 261px; 
+    top: 1050px; 
+    position: absolute; 
+    mix-blend-mode: multiply; 
+    background: #253648; 
+    border-radius: 80px; 
+
+}
+#opcionc{
+   width: 176px; 
+   height: 57px; 
+   left: 673px; 
+   top: 1050px; 
+   position: absolute; 
+   mix-blend-mode: multiply; 
+   background: #253648; 
+   border-radius: 80px; 
+}
+.textos{
+    left: 865px; 
+    top: 1150px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.link{
+    left: 1049px; 
+    top: 1150px; 
+    position: absolute; 
+    color: #253648; 
+    font-size: 20px; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+/******************************************Crear Cuenta formulario****************************/
+.value{
+    font-size: 26px;
+    color: #253648;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+    font-size: 16px;
+    padding-left: 35%;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding-top:8%;
+}
+
+.label{
+    width: 400px;
+    height: auto;
+    background-color: #BEDBE3;
+    border-radius: 40px;
+    border-color: 1px #253648;
+}
+
+.boton{
+    
+    color: aliceblue;
+    width: 200px;
+    height: auto;
+    position: absolute; 
+    mix-blend-mode: multiply; 
+    background: #253648; 
+    border-radius: 80px; 
+    margin-left: 8%;
+}
+
+/**************************************Iniciar Sesión*****************************/
+
+/***********************************************menu*******************************/
+.menup{
+    padding-top: 7%;
+    padding-left: 15%;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .menu button {
+    display: block;
+    width: 80%;
+    background-color: #253648;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 80px;
+    text-align: center;
+  }
+  .menu button:hover {
+    background-color: #BEDBE3;
+  }
+/********************************Fooooooooteeeeeeeeerrrr***************************/
+.footer {
+    width: 1315px; 
+    height: 240px; 
+    left: -30px; 
+    top: 1230px; 
+    position: absolute; 
+    background: #253648;
+    flex-wrap: wrap;
+}
+.tituloco{
+    padding-top: 3%;
+    color: aliceblue;
+    padding-left: 100px;
+    font-size: 18px;
+    
+}
+
+#footer2{
+    top: 600px;
+    width: 1315px; 
+    height: 240px;  
+    position: absolute; 
+    background: #253648;
+    flex-wrap: wrap;
+}
+
+/***************************************Mostrar vehiculo***********************/
+.btn{
+    color: aliceblue;
+    background: #253648; 
+    border-radius: 80px; 
+    width: 100px;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+ 
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+ 
+th {
+    background-color: #253648;
+    color: #fff;
+}
+ 
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

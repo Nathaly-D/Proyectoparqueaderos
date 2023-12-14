@@ -1,0 +1,141 @@
+/*
+
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    color: #111111;
+}
+
+/* Estilos generales para el formulario 
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilos para campos de entrada 
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Estilos para botones 
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para mensajes de error 
+.error-message {
+    color: #e74c3c;
+    margin-top: 5px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+/* Otros estilos específicos según las necesidades del formulario */
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////HTML////////////////////////////////
+
+<!--<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Inicio</title>
+</head>
+<body>
+
+<h1>Menú Principal</h1>
+
+ Botones 
+<section class="botones">
+<button onclick="window.location.href='./views/registrarClientes.html'">Guardar Clientes</button>
+<button onclick="window.location.href='./views/mostrarClientes.php'">Mostrar Clientes</button>
+<button onclick="window.location.href='./views/registrarAdministradores.html'">Guardar Administradores</button>
+<button onclick="window.location.href='./views/mostrarAdministradores.php'">Mostrar Administradores</button>
+<button onclick="window.location.href='./views/registrarTipoVehiculos.html'">Guardar Tipos de vehiculos</button>
+<button onclick="window.location.href='./views/mostrarTipoVehiculos.php'">Mostrar Tipos de vehiculos</button>
+<button onclick="window.location.href='./views/registrarVehiculos.php'">Guardar Vehículos</button>
+<button onclick="window.location.href='./views/mostrarVehiculos.php'">Mostrar Vehículos</button>
+<button onclick="window.location.href='./views/registrarParqueaderos.php'">Guardar Parqueaderos</button>
+<button onclick="window.location.href='./views/mostrarParqueaderos.php'">Mostrar Parqueaderos</button>
+<button onclick="window.location.href='./views/registrarReservas.php'">Guardar Reservas</button>
+<button onclick="window.location.href='./views/mostrarReservas.php'">Mostrar Reservas</button>
+<button onclick="window.location.href='./views/registrarParqueos.php'">Guardar Parqueos</button>
+<button onclick="window.location.href='./views/mostrarParqueos.php'">Mostrar Parqueos</button>
+<button onclick="window.location.href='./views/dashboard.php'">Dashboard</button></section>
+<button onclick="window.location.href='./views/enviarCorreo.php'">Correo</button></section>
+</body>
+</html>-->
+
+
